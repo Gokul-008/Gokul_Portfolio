@@ -96,7 +96,14 @@
 }
 
 .work-info>p {
-  width: 90%;
+  width: 95%;
+}
+
+.work-description {
+  margin-bottom: 20px !important;
+  line-height: 22px;
+  font-size: 14px !important;
+  color: #d1d1d1 !important;
 }
 
 .work-image {

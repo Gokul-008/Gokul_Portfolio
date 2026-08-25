@@ -1,5 +1,4 @@
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
@@ -76,10 +75,10 @@ const Work = () => {
                     <p>{project.category}</p>
                   </div>
                 </div>
+                <p className="work-description">{project.description}</p>
                 <h4>Tools and features</h4>
                 <p>{project.technologies}</p>
               </div>
-              <WorkImage image={project.image} alt={project.title} />
             </div>
           ))}
           {/* See All Works Button */}
