@@ -2,94 +2,116 @@ export const config = {
     developer: {
         name: "Gokul",
         fullName: "Gokul M",
-        title: "Cloud & AI Engineer",
-        description: "AI & Data Science undergraduate with hands-on cloud experience through AWS certification and real world ML deployment. Proficient in Python, Linux, and Docker with exposure to cloud-native tooling on AWS."
+        title: "Java Developer & Software Engineer",
+        description: "Aspiring Java Developer with knowledge of Java, SQL, Data Structures, and software development principles. Looking for an opportunity to utilize my technical skills, contribute to innovative projects, and build a successful career in software development.",
+        phone: "+91 9787310278",
+        website: "gokul.engineer"
     },
     social: {
         github: "https://github.com/Gokul-008",
-        email: "gokulmari16@gmai.com",
-        location: "Chennai, India"
+        linkedin: "https://linkedin.com/in/gokulm16",
+        email: "gokulmari16@gmail.com",
+        location: "Chennai, India",
+        phone: "+91 9787310278",
+        website: "https://gokul.engineer"
     },
     about: {
         title: "About Me",
-        description: "I am an AI & Data Science undergraduate from Saveetha Engineering College with a deep passion for cloud infrastructure and automation. As an AWS Certified Solutions Architect Associate, I have practical experience designing, deploying, and managing scalable cloud architectures, containerized services with Docker, and building RESTful APIs. Eager to bring my hands-on knowledge in DevOps, CI/CD, and machine learning to build next-generation cloud solutions."
+        description: "Aspiring Java Developer with knowledge of Java, SQL, Data Structures, and software development principles. Looking for an opportunity to utilize my technical skills, contribute to innovative projects, and build a successful career in software development."
     },
-
+    education: {
+        institution: "Saveetha Engineering College - Chennai",
+        degree: "B.Tech - Artificial Intelligence and Data Science",
+        period: "Nov 2022 – May 2026",
+        cgpa: "7.2 / 10",
+        coursework: ["Operating System", "Computer Networks", "DBMS"]
+    },
     experiences: [
         {
-            position: "Data Science Intern",
-            company: "HDLC Technologies",
-            period: "Jun 2024 - Jul 2024",
+            position: "Java Developer Intern",
+            company: "Retech Solution Pvt Ltd. Chennai",
+            period: "May 2025 – June 2025",
             location: "Chennai, India",
-            description: "Built and deployed ML models in Python, managed cloud-hosted datasets, and automated data workflows.",
+            description: "Developed log report modules, RESTful APIs using Java & Spring Boot, and database filtering functionalities.",
             responsibilities: [
-                "Built and deployed ML models in Python achieving 86% sales forecast accuracy on cloud-hosted datasets.",
-                "Leveraged AWS S3 for data storage and version management during model training and validation cycles.",
-                "Applied data preprocessing, feature engineering, and model evaluation techniques on real-world business data.",
-                "Gained practical exposure to Linux environments and Python scripting for automation of data workflows."
+                "Developed a report generation module to export and manage log data in PDF format.",
+                "Built and integrated RESTful APIs using Java and Spring Boot for seamless communication between frontend and backend systems.",
+                "Implemented database filtering functionality based on user-selected date ranges for efficient data retrieval and reporting.",
+                "Collaborated with developers and testers in an enterprise environment to ensure stable, efficient, and bug-free application deployment."
             ],
-            technologies: ["Python", "AWS S3", "Machine Learning", "Linux", "Scripting"]
-        },
-        {
-            position: "Cloud & DevOps Learner",
-            company: "Self-Development",
-            period: "2024 - Present",
-            location: "Chennai, India",
-            description: "Studying advanced cloud engineering and DevOps methodologies, deploying containerized applications, and building CI/CD pipelines.",
-            responsibilities: [
-                "Researching advanced Cloud Infrastructure and Infrastructure-as-Code (IaC) using Terraform and CloudFormation.",
-                "Deploying and orchestrating containerized environments with Docker and learning Kubernetes fundamentals.",
-                "Designing CI/CD automation pipelines using GitHub Actions.",
-                "Successfully earned the AWS Certified Solutions Architect - Associate certification."
-            ],
-            technologies: ["AWS", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "CI/CD"]
+            technologies: ["Java", "Spring Boot", "REST APIs", "SQL", "PDF Generation", "Database Filtering"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "AI-Powered Q&A App",
-            category: "AI & Cloud Development",
-            technologies: "FastAPI, Python, Flutter, Gemini API, AWS EC2/Lambda",
-            image: "/images/qa_app.png",
-            description: "A Perplexity-style AI-powered search and Q&A app. Designed and deployed a REST API backend using FastAPI hosted on a cloud environment. Integrated Gemini API for real-time AI responses, implementing API key authentication and rate limiting."
+            title: "E-Commerce Backend API",
+            category: "Backend Engineering & REST APIs",
+            technologies: "Java, Spring Boot, Hibernate, MySQL, Postman",
+            image: "/images/ecommerce_backend.png",
+            description: "Developed RESTful APIs for product, user, cart, and order management. Implemented CRUD operations using Spring Data JPA & MySQL, designed relational schemas, applied OOP & exception handling, and tested APIs via Postman.",
+            bulletPoints: [
+                "Developed RESTful APIs for product, user, cart, and order management.",
+                "Implemented CRUD operations using Spring Data JPA and MySQL.",
+                "Designed relational database schema for users, products, and orders.",
+                "Applied object-oriented programming principles and exception handling.",
+                "Tested APIs using Postman and validated database operations."
+            ]
         },
         {
             id: 2,
-            title: "Tourism App",
-            category: "AI Chatbot & ML Integration",
-            technologies: "Python, TensorFlow, Flutter, AWS S3, REST APIs",
-            image: "/images/tourism_app.png",
-            description: "An AI-powered mobile app with a TensorFlow ML model for tourism recommendations. Managed application state and data flow between the Flutter frontend and cloud-hosted model, with error handling and monitoring hooks."
+            title: "AI-Powered Object Detection System",
+            category: "Computer Vision & Security AI",
+            technologies: "YOLOv8, Python, Ultra Analytics",
+            image: "/images/security_app.png",
+            description: "Developed an AI-powered object detection system to enhance ATM security by detecting helmets and masks, preventing unauthorized access. Designed YOLOv8 model for real-time monitoring and fine-tuned using Ultra analytics framework.",
+            bulletPoints: [
+                "Developed an AI-powered object detection system to enhance ATM security by detecting helmets and masks, preventing unauthorized access.",
+                "Designed a YOLOv8-based object detection model for real-time monitoring.",
+                "Trained and fine-tuned the model using the Ultra analytics framework for optimal performance."
+            ]
+        }
+    ],
+    skills: {
+        develop: {
+            title: "JAVA & BACKEND DEVELOPMENT",
+            description: "Building scalable RESTful APIs and Enterprise Applications",
+            details: "Proficient in Java, Spring Boot framework, Hibernate, relational database design (MySQL, SQL), object-oriented programming, and API testing with Postman.",
+            tools: ["Java", "Spring Boot", "Hibernate", "SQL", "MySQL", "MongoDB", "REST APIs", "Postman", "IntelliJ IDEA"]
+        },
+        design: {
+            title: "AI & SOFTWARE ENGINEERING",
+            description: "Data Structures, Python & Machine Learning",
+            details: "Experienced in Python programming, YOLOv8 computer vision models, data structures, algorithm design, HTML, CSS, and Agile methodologies.",
+            tools: ["Python", "YOLOv8", "Data Structures", "HTML", "CSS", "Git", "GitHub", "VS Code", "Agile"]
+        },
+        raw: {
+            languages: ["Java", "Python", "SQL", "HTML", "CSS"],
+            frameworks: ["Spring Boot", "Hibernate"],
+            tools: ["IntelliJ", "VS Code", "MySQL", "MongoDB", "GitHub"],
+            methodologies: ["Agile"]
+        }
+    },
+    certifications: [
+        {
+            title: "MongoDB Java Developer",
+            issuer: "MongoDB",
+            icon: "mongodb"
         },
         {
-            id: 3,
-            title: "Security System App",
-            category: "Computer Vision & Automation",
-            technologies: "Python, OpenCV, YOLO, Docker, Linux",
-            image: "/images/security_app.png",
-            description: "A real-time object detection system using YOLO and OpenCV for mask and helmet detection. Scripted automated processing pipelines and designed the architecture to support containerized Docker deployment."
+            title: "Software Engineer",
+            issuer: "HackerRank",
+            icon: "hackerrank"
         }
     ],
     contact: {
-        email: "gokulmari16@gmai.com",
+        email: "gokulmari16@gmail.com",
+        phone: "+91 9787310278",
         github: "https://github.com/Gokul-008",
-        linkedin: "https://www.linkedin.com/in/gokuml16"
-    },
-    skills: {
-        develop: {
-            title: "CLOUD & DEVOPS",
-            description: "Architecting and managing cloud infrastructure",
-            details: "Designing secure, scalable, and highly available AWS architectures. Experienced with Docker containers, Terraform infrastructure-as-code, and GitHub Actions for continuous integration and delivery.",
-            tools: ["AWS (EC2, S3, IAM, VPC, Lambda)", "Docker", "Kubernetes (basics)", "Terraform", "CloudFormation", "GitHub Actions", "Linux", "Git", "Networking", "Security"]
-        },
-        design: {
-            title: "AI & BACKEND DEVELOPMENT",
-            description: "Building intelligent services and APIs",
-            details: "Developing machine learning models and RESTful backend APIs. Experienced in data preprocessing, computer vision (OpenCV/YOLO), and database integrations.",
-            tools: ["Python", "FastAPI", "TensorFlow", "OpenCV", "YOLO", "Node.js", "MongoDB", "PostgreSQL", "MySQL", "JavaScript"]
-        }
+        linkedin: "https://linkedin.com/in/gokulm16",
+        website: "https://gokul.engineer"
     }
 };
+
 
 

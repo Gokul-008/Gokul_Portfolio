@@ -44,12 +44,30 @@
   margin-bottom: 50px;
 }
 
-.career-info-box p {
+.career-info-box p,
+.career-details {
   width: 40%;
   font-size: 14px;
   font-weight: 300;
   margin: 0;
   line-height: 20px;
+}
+
+.career-details p {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.career-bullets {
+  margin: 8px 0 0 0;
+  padding-left: 18px;
+  color: #d1d1d1;
+}
+
+.career-bullets li {
+  margin-bottom: 6px;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 .career-info-in {
@@ -220,7 +238,8 @@
   }
 
   .career-info-in,
-  .career-info-box p {
+  .career-info-box p,
+  .career-details {
     width: 100%;
     padding-left: 10%;
     box-sizing: border-box;

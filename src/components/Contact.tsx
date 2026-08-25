@@ -62,10 +62,15 @@ const Contact = () => {
         <h3>{config.developer.fullName}</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Email</h4>
+            <h4>Email & Phone</h4>
             <p>
               <a href={`mailto:${config.contact.email}`} data-cursor="disable">
                 {config.contact.email}
+              </a>
+            </p>
+            <p>
+              <a href={`tel:${config.contact.phone}`} data-cursor="disable">
+                {config.contact.phone}
               </a>
             </p>
             <h4>Location</h4>
@@ -74,7 +79,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Social & Web</h4>
             <a
               href={config.contact.github}
               target="_blank"
@@ -93,8 +98,15 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
-
-
+            <a
+              href={config.contact.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              gokul.engineer <MdArrowOutward />
+            </a>
           </div>
           <div className="contact-box">
             <h5>
