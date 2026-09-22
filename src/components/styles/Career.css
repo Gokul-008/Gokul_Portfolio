@@ -275,16 +275,16 @@
   }
 
   .career-info-in,
-  .career-info-box p {
+  .career-info-box p,
+  .career-details {
     padding-left: 5%;
   }
 
   .career-section {
     padding-top: 90px;
     margin-top: 0px;
-
-    align-items: start;
-    place-items: inherit;
-    justify-content: left;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
   }
 }

@@ -1,19 +1,20 @@
 .about-section {
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   place-items: center;
   position: relative;
   opacity: 1;
   height: auto;
   width: var(--cWidth);
   margin: auto;
+  text-align: center;
 }
 .about-me {
   padding: 40px 0px;
   padding-bottom: 0;
   width: 100%;
-  max-width: calc(100% - 15px);
+  max-width: 100%;
 }
 .about-me h3 {
   font-size: 18px;

@@ -333,12 +333,13 @@
 
   .what-box-in {
     height: 500px;
-    margin-left: -50px;
+    margin-left: 0px;
   }
 
   .what-content {
     padding: 50px;
     width: 500px;
+    max-width: 100%;
   }
 
   .what-content p {
@@ -362,16 +363,18 @@
 @media only screen and (max-width: 900px) {
   .whatIDO {
     flex-direction: column;
+    align-items: center;
   }
 
   .what-box h2 {
     margin: 50px 0;
     font-size: 55px;
     line-height: 53px;
+    text-align: center;
   }
 
   .what-box:first-child {
-    justify-content: left;
+    justify-content: center;
   }
 
   .what-box:last-child {
@@ -380,8 +383,8 @@
 
   .what-box {
     width: 500px;
-    max-width: calc(100% - 50px);
-    margin: auto;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
   }
 
   .what-content {
@@ -436,14 +439,14 @@
 
 @media only screen and (max-width: 550px) {
   .whatIDO {
-    place-items: inherit;
-    align-items: start;
-    justify-content: left;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .what-box {
-    max-width: calc(100% - 25px);
-    margin: 0;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
   }
 }
 
