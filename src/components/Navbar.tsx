@@ -11,6 +11,12 @@ export let lenis: Lenis | null = null;
 
 const Navbar = () => {
   useEffect(() => {
+    // Only initialize Lenis smooth scroll on desktop viewports
+    if (window.innerWidth <= 1024) {
+      document.body.style.overflowY = "auto";
+      return;
+    }
+
     // Initialize Lenis smooth scroll
     lenis = new Lenis({
       duration: 1.7,
